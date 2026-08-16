@@ -131,6 +131,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 2886403633967287628, guid: 968046aaf5fc07e4c99d94c7d49b3591, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073939220772750798, guid: 968046aaf5fc07e4c99d94c7d49b3591, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241618723874149439, guid: 968046aaf5fc07e4c99d94c7d49b3591, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 6257040016838342701, guid: 968046aaf5fc07e4c99d94c7d49b3591, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 7416611099710604399, guid: 968046aaf5fc07e4c99d94c7d49b3591, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0

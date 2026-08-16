@@ -53,7 +53,6 @@ public class MenuSystem : MonoBehaviour {
 
     public void ResetLevel() {
         control.ResetLevel();
-        Timer.timer.Restart();
         StartGame();
     }
 
@@ -81,7 +80,7 @@ public class MenuSystem : MonoBehaviour {
         win.SetActive(true);
         stasis = win;
 
-        SaveGame.save.LevelComplete(Timer.timer.GetTime());
+        SaveGame.save.LevelComplete();
     }
 
     public void LoseGame() {
